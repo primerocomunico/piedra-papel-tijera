@@ -1,0 +1,10 @@
+.imagen-boton {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin: 10px;
+}
