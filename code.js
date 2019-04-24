@@ -66,13 +66,13 @@ function elegirTirada(tiradaOrdenador) {
   Publicación de tirada del ordeandor
   */
   if(tiradaOrdenador == "piedra") {
-    imagenOrdenador.innerHTML = `<img src="rock.jpg" class="imagen-boton" />`;
+    imagenOrdenador.innerHTML = `<img src="rock.jpg" class="imagen-boton mx-auto center" />`;
   }
   else if(tiradaOrdenador == "papel") {
-    imagenOrdenador.innerHTML = `<img src="papper.jpg" class="imagen-boton" />`;
+    imagenOrdenador.innerHTML = `<img src="papper.jpg" class="imagen-boton mx-auto center" />`;
   }
   else if(tiradaOrdenador == "tijera") {
-    imagenOrdenador.innerHTML = `<img src="scissors.jpg" class="imagen-boton" />`;
+    imagenOrdenador.innerHTML = `<img src="scissors.jpg" class="imagen-boton mx-auto center" />`;
   }
 }
 
@@ -80,21 +80,21 @@ function elegirTirada(tiradaOrdenador) {
 botonPiedra.addEventListener('click', function() {
   let tiradaOrdenador = juegoOrdenador(); // Elige tirada del ordeandor
   elegirTirada(tiradaOrdenador);
-  imagenPersona.innerHTML = `<img src="rock.jpg" class="imagen-boton" />`;
+  imagenPersona.innerHTML = `<img src="rock.jpg" class="imagen-boton mx-auto center" />`;
   tiradas(tiradaOrdenador, "piedra");
 });
 
 botonPapel.addEventListener('click', function() {
   let tiradaOrdenador = juegoOrdenador();
   elegirTirada(tiradaOrdenador);
-  imagenPersona.innerHTML = `<img src="papper.jpg" class="imagen-boton" />`;
+  imagenPersona.innerHTML = `<img src="papper.jpg" class="imagen-boton mx-auto center" />`;
   tiradas(tiradaOrdenador, "papel");
 });
 
 botonTijera.addEventListener('click', function() {
   let tiradaOrdenador = juegoOrdenador();
   elegirTirada(tiradaOrdenador); //La variable se pasa como argumento para que se utilice fuera de la función
-  imagenPersona.innerHTML = `<img src="scissors.jpg" class="imagen-boton" />`;
+  imagenPersona.innerHTML = `<img src="scissors.jpg" class="imagen-boton mx-auto center" />`;
   tiradas(tiradaOrdenador, "tijera");
 });
 
