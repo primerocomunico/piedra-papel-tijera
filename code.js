@@ -77,6 +77,7 @@ function elegirTirada(tiradaOrdenador) {
 }
 
 // MAIN - Ejecuciones
+// BINDS - Conexión del objeto con html
 botonPiedra.addEventListener('click', function() {
   let tiradaOrdenador = juegoOrdenador(); // Elige tirada del ordeandor
   elegirTirada(tiradaOrdenador);

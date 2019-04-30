@@ -8,3 +8,18 @@
   display: block;
   margin: 10px;
 }
+
+.contenido-footer {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .contenido-footer {
+    display:block;
+    text-align: center;
+  }
+}
+
+.lead, .mt-5 {
+  text-align: center;
+}
