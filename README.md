@@ -16,5 +16,7 @@ Tecnologías adicionales:
 <li> Bootstrap</li>
 </ul>
 
+<h5>Tienes un ejemplo de uso de typescript en el <a href="https://github.com/primerocomunico/piedra-papel-tijera/tree/typescript" target="_blank">branch Typescript</a></h5>
+
 Descubre más proyectos en <b><a href="https://primerocomunico.github.io/portfolio/" target="_blank">mi portfolio.</a></b>
 <!--  -->
